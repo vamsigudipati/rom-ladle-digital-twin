@@ -1,0 +1,4 @@
+setup,n_dof,offline_s,modes_to_1e-3,modes_to_1e-5
+"base: 50 points, 300 steps",2304,1.23,30,64
+"30 points, 300 steps",784,0.35,30,64
+"50 points, 150 steps",2304,0.53,34,70
