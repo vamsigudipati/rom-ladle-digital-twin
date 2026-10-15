@@ -9430,7 +9430,7 @@ Result (Experiment 5): offline time / modes to reach 1e-3 of the first singular 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Summary-of-the-experiments">Summary of the experiments<a class="anchor-link" href="#Summary-of-the-experiments">¶</a></h2><p>The numbers are those printed in the <code>Result</code> lines above; the tables and figures are in the exercises results folder.</p>
+<h2 id="Summary-of-the-experiments">Summary of the experiments<a class="anchor-link" href="#Summary-of-the-experiments">¶</a></h2><p>The numbers are those printed in the <code>Result</code> lines above; the tables and figures are in the experiments results folder.</p>
 </div>
 </div>
 </div>
@@ -9441,7 +9441,7 @@ Result (Experiment 5): offline time / modes to reach 1e-3 of the first singular 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Three-seed-repeats">Three-seed repeats<a class="anchor-link" href="#Three-seed-repeats">¶</a></h1><p>The notebook draws its 40 snapshot parameters, its 40 test parameters and its 60 extra regression parameters from one generator, <code>default_rng(0)</code>, in that order (Sections 2, 3 and 4). <code>ex_main_numbers(seed)</code> repeats the whole chain with <code>default_rng(seed)</code> in the same order, so seed 0 reproduces the notebook's own numbers and seeds 1 and 2 are two other draws of the training and test parameters: POD basis, rank-15 intrusive ROM, degree-4 ridge ROM, in-box errors, the corner sweep of Section 5 and the wide source. I repeat Experiments 2 to 4 the same way: Experiment 2 with <code>ex_build_all(..., seed)</code>, Experiment 3 with the MLP's <code>random_state</code> (the RBF and ridge fits are deterministic), Experiment 4 with <code>default_rng(4 + seed)</code> (seed 0 is the experiment's own <code>default_rng(4)</code>). Experiments 1 and 5 contain no random draw. The <code>seeds_*.csv</code> tables and <code>seeds_summary.png</code> go to the exercises results folder.</p>
+<h1 id="Three-seed-repeats">Three-seed repeats<a class="anchor-link" href="#Three-seed-repeats">¶</a></h1><p>The notebook draws its 40 snapshot parameters, its 40 test parameters and its 60 extra regression parameters from one generator, <code>default_rng(0)</code>, in that order (Sections 2, 3 and 4). <code>ex_main_numbers(seed)</code> repeats the whole chain with <code>default_rng(seed)</code> in the same order, so seed 0 reproduces the notebook's own numbers and seeds 1 and 2 are two other draws of the training and test parameters: POD basis, rank-15 intrusive ROM, degree-4 ridge ROM, in-box errors, the corner sweep of Section 5 and the wide source. I repeat Experiments 2 to 4 the same way: Experiment 2 with <code>ex_build_all(..., seed)</code>, Experiment 3 with the MLP's <code>random_state</code> (the RBF and ridge fits are deterministic), Experiment 4 with <code>default_rng(4 + seed)</code> (seed 0 is the experiment's own <code>default_rng(4)</code>). Experiments 1 and 5 contain no random draw. The <code>seeds_*.csv</code> tables and <code>seeds_summary.png</code> go to the experiments results folder.</p>
 </div>
 </div>
 </div>
