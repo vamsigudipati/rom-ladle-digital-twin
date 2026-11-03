@@ -1,0 +1,11 @@
+# The subset of requirements.txt that the notebooks and the tests import,
+# at the same pinned versions. CI installs this (requirements.txt is the
+# author's full macOS freeze and includes packages with no Linux wheels).
+# torch is installed separately from the CPU wheel index; see .github/workflows/tests.yml.
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.8.0
+pandas==3.0.6
+matplotlib==3.11.2
+imageio-ffmpeg==0.6.0
+pytest==9.2.0
